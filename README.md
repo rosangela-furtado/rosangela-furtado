@@ -1,13 +1,21 @@
-# Rosangela Furtado · QA
 
-> A tela diz “pagamento falhou”. O banco mostra uma cobrança. E agora?
 
-É esse tipo de desencontro que me interessa em qualidade de software. Quem está comprando precisa saber se pode tentar de novo. Para responder, eu olharia o que a tela informou, o que ficou registrado no pedido e quantas cobranças foram geradas.
+# 👋 Oi, eu sou a Rosangela Furtado!
 
-Aqui compartilho meus projetos de QA e os cenários de teste por trás deles.
+- 🔎 Trabalho com qualidade de software, de testes exploratórios à automação com Playwright e Selenium.
+- 🧪 Gosto de testar o que acontece entre um clique e a confirmação que chega para quem usa o produto.
+- 📍 Curitiba, PR · Aqui compartilho projetos de QA e os cenários por trás deles.
+
+### Na minha bancada de testes
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" height="38" alt="Playwright"> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" height="38" alt="Selenium"> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="38" alt="Java"> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/groovy/groovy-original.svg" height="38" alt="Groovy"> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" height="38" alt="Git"> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height="38" alt="Jenkins">
+
+Playwright · Selenium WebDriver · Java · Groovy · Git · Jenkins
+
+[![Ver projetos de QA](https://img.shields.io/badge/Ver_projetos-542E91?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rosangela-furtado?tab=repositories) [![Abrir currículo interativo](https://img.shields.io/badge/Curr%C3%ADculo_interativo-08785B?style=for-the-badge)](https://curriculorosangelafurtado.netlify.app/)
 
 <details>
-<summary><strong>Como eu testaria esse checkout?</strong></summary>
+<summary><strong>🧩 O pagamento falhou na tela, mas o banco cobrou. Como eu testaria?</strong></summary>
 
 Imagine que o pagamento foi aprovado, mas a conexão caiu antes de a confirmação chegar à tela.
 
@@ -20,5 +28,3 @@ Imagine que o pagamento foi aprovado, mas a conexão caiu antes de a confirmaç�
 Para investigar uma divergência, eu reuniria o identificador do pedido, os horários das tentativas e os estados exibidos em cada etapa. Com essa sequência, outra pessoa consegue reconstruir o que aconteceu.
 
 </details>
-
-[Explorar meus repositórios →](https://github.com/rosangela-furtado?tab=repositories)
